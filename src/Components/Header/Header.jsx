@@ -9,7 +9,7 @@ const Header = () => {
                 <h1 className="text-5xl font-bold">Gadget Heaven</h1>
             </div>
             <div>
-                <ul className="flex gap-4 text-4xl">
+                <ul className="flex gap-4 text-3xl">
                     <NavLink to="/">Home</NavLink>
                     <NavLink to="/statistics">Statistics</NavLink>
                     <NavLink to="/dashboard">Dashboard</NavLink>
