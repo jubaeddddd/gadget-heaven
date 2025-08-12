@@ -1,4 +1,5 @@
 import bannerImg from '../../assets/banner.jpg'
+import { Outlet } from "react-router-dom";
 
 const Banner = () => {
     return (
@@ -19,6 +20,11 @@ const Banner = () => {
                     <img src={bannerImg} alt="VR headset" class="rounded-2xl className='h-[500px] w-[900px] " />
                 </div>
             </div>
+
+            {
+                <Outlet></Outlet>
+            }
+
         </div>
     );
 };
