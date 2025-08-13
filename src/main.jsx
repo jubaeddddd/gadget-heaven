@@ -16,6 +16,7 @@ import Accessories from './Components/Accessories/Accessories.jsx'
 import Watches from './Components/Watches/Watches.jsx'
 import Macs from './Components/Macs/Macs.jsx'
 import Iphones from './Components/Iphones/Iphones.jsx'
+import Details from './Components/Details/Details.jsx';
 
 
 const router = createBrowserRouter([
@@ -70,6 +71,11 @@ const router = createBrowserRouter([
           }
         ]
       },
+      {
+        path: '/details/:product_id',
+        loader: ()=>fetch('../public/Product.json'),
+        element: <Details></Details>
+      }
     ]
   },
 ]);

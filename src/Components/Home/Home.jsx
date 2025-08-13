@@ -6,8 +6,8 @@ import Header from "../Header/Header";
 const Home = () => {
     return (
         <div>
-            <section className="container mx-auto mt-5 pt-10 text-white">
-                <div className="bg-violet-500 py-5 rounded-t-4xl">
+            <section className="mt-5 pt-10 text-white">
+                <div className="bg-violet-500 py-5 rounded-t-4xl container mx-auto">
                     <Header></Header>
                 </div>
                 {

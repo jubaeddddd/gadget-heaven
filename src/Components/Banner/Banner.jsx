@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 
 const Banner = () => {
     return (
-        <div className='relative'>
+        <div className='relative container mx-auto'>
             <div className="flex flex-col items-center gap-10  text-center pt-5 pb-72 bg-violet-500 rounded-b-4xl">
                 <div>
                     <h1 className="text-7xl font-bold">Upgrade Your Tech Accessorize with <br /> Gadget Heaven Accessories</h1>
